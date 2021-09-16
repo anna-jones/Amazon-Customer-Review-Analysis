@@ -9,11 +9,18 @@
 
 2. Created dataframe from CSV file with over 500k records of Amazon reviews.
 
+3. Data cleaning:-
+            Remove unnecessary columns:
+                                        Time, 
+                                        HelpfulnessNumerator, and 
+                                        HelpfulnessDenominator
+
+4. Data preprocessing:-
+            Grouping and ordering both old and newly created columns  
+            Made inferences from data using Pivot table and Heatmap
 
 --To do next--
 
-1. Data cleaning:-
-            Remove unnecessary columns
+1. Create model for analyzing Amazon review
 
-2. Data preprocessing:-
-            Grouping and ordering both old and newly created columns     
+   
