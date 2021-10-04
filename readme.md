@@ -32,6 +32,15 @@
 
 1. Implement data modelling using other algorithms like TF-IDF 
 
+<details>
+  <summary></summary>
+  
+  ## --To do last--
+  1. Create Wordclouds for top positive and negative words in reviews
+  2. Add stemming and lemmatization along with stop words
+  3. Change color scheme of Confusion Matrix Plot
+</details>
+
 --To do last--
 
 1. Create Wordclouds for top positive and negative words in reviews
