@@ -11,9 +11,9 @@
 
 3. Data cleaning:-
             Removed unnecessary columns:
-                                        Time, 
-                                        HelpfulnessNumerator, and 
-                                        HelpfulnessDenominator
+                      Time, 
+                      HelpfulnessNumerator, and 
+                      HelpfulnessDenominator
 
 4. Data preprocessing:-
             Grouped and ordered both old and newly created columns  
@@ -28,10 +28,15 @@
             Vectorized and fit data with Logistic Regression model, then displayed model accuracy and top words from reviews, 
             Vectorized and fit data with Logistic Regression model, predicted values on test data and displayed model accuracy and confusion matrix for the predictions
 
---To do next--
+7. Imbalanced data:-
+            Checked for imbalaned data from the count of resultant values
+            Confirmed presence of imbalanced data using Dummy Classifier
+            Balanced the data by oversampling with RandomOverSampler
 
-1. Implement data modelling using other algorithms like TF-IDF 
-
+8. Data Modelling II
+            Removed the reviews with score 3 (neither positive nor negative)
+            Vectorized data using TF-IDF Vectorizer and balanced the data using RandomOverSampler
+            Modelled the data using Logisctic Regression and displayed the performance with Accuracy and Confusion Matrix
 
 
 <details>
@@ -41,6 +46,8 @@
   1. Create Wordclouds for top positive and negative words in reviews
   2. Add stemming and lemmatization along with stop words
   3. Change color scheme of Confusion Matrix Plot
+  4. Add filter to remove numeric values from data
+  5. Improve on calculation of accuracy from Confusion matrix (Average the normalized values of accurate responses maybe??)
 </details>
 
 
